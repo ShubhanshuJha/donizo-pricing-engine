@@ -8,17 +8,17 @@ This repository was developed as part of the **Donizo test assignment**.
 ### Repository Structure
 
 /donizo-pricing-engine/<br>
-├── pricing_engine.py # Main orchestrator<br>
+├── pricing_engine.py # Main orchestrator script<br>
 ├── pricing_logic/<br>
 │ ├── material_db.py # Material lookup and costs<br>
 │ ├── labor_calc.py # Labor hours and cost estimation<br>
 │ └── vat_rules.py # VAT logic<br>
 ├── data/<br>
 │ ├── materials.json # Default material prices<br>
-│ ├── city_modifiers.json # City-based multipliers<br>
-│ └── price_templates.csv # Example templates (optional)<br>
+│ ├── city_modifiers.json # Sample City-based multipliers<br>
+│ └── price_templates.csv # Sample price templates<br>
 ├── output/<br>
-│ └── sample_quote.json # Example structured quote output<br>
+│ └── sample_quote.json # Structured quote output<br>
 ├── tests/<br>
 │ └── test_logic.py # Unit tests<br>
 ├── README.md<br>
