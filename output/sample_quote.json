@@ -1,8 +1,8 @@
 {
   "system": "T",
-  "quote_id": "donizo-example-0001",
+  "quote_id": "donizo-0f0f024b",
   "client": {
-    "raw_transcript": "Client wants to renovate a small 4m² bathroom. They'll remove the old tiles, redo the plumbing for the shower, replace the toilet, install a vanity, repaint the walls, and lay new ceramic floor tiles. Budget-conscious. Located in Marseille.",
+    "raw_transcript": "Client wants to renovate a small 4m\u00b2 bathroom. They\u2019ll remove the old tiles, redo the plumbing for the shower, replace the toilet, install a vanity, repaint the walls, and lay new ceramic floor tiles. Budget-conscious. Located in Marseille.",
     "location": "Marseille"
   },
   "currency": "EUR",
@@ -13,39 +13,52 @@
         {
           "task_name": "Floor Tiling (ceramic)",
           "area_m2": 4.0,
-          "labor": { "hours": 3.75, "hourly_rate": 40.0, "cost": 150.0 },
-          "materials": [
-            { "name": "tiles_ceramic_m2", "qty": 4.0, "unit_cost": 25.0, "total": 100.0 }
-          ],
+          "labor": {
+            "hours": 3.75,
+            "hourly_rate": 40.0,
+            "cost": 150.0
+          },
+          "materials": [],
           "estimated_duration_hours": 3.75,
           "vat_rate": 0.2,
           "margin_pct": 0.12,
-          "price_ex_vat": 280.0,
-          "vat_amount": 56.0,
-          "total_price": 336.0,
-          "confidence": 0.88
+          "price_ex_vat": 168.0,
+          "vat_amount": 33.6,
+          "total_price": 201.6,
+          "confidence": 1.0
         },
         {
           "task_name": "Repaint Walls",
           "area_m2": null,
-          "labor": { "hours": 3.0, "hourly_rate": 40.0, "cost": 120.0 },
-          "materials": [
-            { "name": "paint_litre", "qty": 5, "unit_cost": 12.0, "total": 60.0 }
-          ],
+          "labor": {
+            "hours": 3.0,
+            "hourly_rate": 40.0,
+            "cost": 120.0
+          },
+          "materials": [],
           "estimated_duration_hours": 3.0,
           "vat_rate": 0.2,
           "margin_pct": 0.12,
-          "price_ex_vat": 201.6,
-          "vat_amount": 40.32,
-          "total_price": 241.92,
-          "confidence": 0.83
+          "price_ex_vat": 134.4,
+          "vat_amount": 26.88,
+          "total_price": 161.28,
+          "confidence": 1.0
         },
         {
           "task_name": "Shower Plumbing (redo)",
           "area_m2": null,
-          "labor": { "hours": 6.0, "hourly_rate": 40.0, "cost": 240.0 },
+          "labor": {
+            "hours": 6.0,
+            "hourly_rate": 40.0,
+            "cost": 240.0
+          },
           "materials": [
-            { "name": "plumbing_parts", "qty": 1, "unit_cost": 150.0, "total": 150.0 }
+            {
+              "name": "plumbing_parts",
+              "qty": 1,
+              "unit_cost": 150.0,
+              "total": 150.0
+            }
           ],
           "estimated_duration_hours": 6.0,
           "vat_rate": 0.2,
@@ -53,14 +66,23 @@
           "price_ex_vat": 436.8,
           "vat_amount": 87.36,
           "total_price": 524.16,
-          "confidence": 0.84
+          "confidence": 1.0
         },
         {
           "task_name": "Replace Toilet",
           "area_m2": null,
-          "labor": { "hours": 2.0, "hourly_rate": 40.0, "cost": 80.0 },
+          "labor": {
+            "hours": 2.0,
+            "hourly_rate": 40.0,
+            "cost": 80.0
+          },
           "materials": [
-            { "name": "toilet_standard", "qty": 1, "unit_cost": 120.0, "total": 120.0 }
+            {
+              "name": "toilet_standard",
+              "qty": 1,
+              "unit_cost": 120.0,
+              "total": 120.0
+            }
           ],
           "estimated_duration_hours": 2.0,
           "vat_rate": 0.2,
@@ -68,14 +90,23 @@
           "price_ex_vat": 224.0,
           "vat_amount": 44.8,
           "total_price": 268.8,
-          "confidence": 0.86
+          "confidence": 1.0
         },
         {
           "task_name": "Install Vanity",
           "area_m2": null,
-          "labor": { "hours": 2.0, "hourly_rate": 40.0, "cost": 80.0 },
+          "labor": {
+            "hours": 2.0,
+            "hourly_rate": 40.0,
+            "cost": 80.0
+          },
           "materials": [
-            { "name": "vanity_basic", "qty": 1, "unit_cost": 100.0, "total": 100.0 }
+            {
+              "name": "vanity_basic",
+              "qty": 1,
+              "unit_cost": 100.0,
+              "total": 100.0
+            }
           ],
           "estimated_duration_hours": 2.0,
           "vat_rate": 0.2,
@@ -83,14 +114,23 @@
           "price_ex_vat": 201.6,
           "vat_amount": 40.32,
           "total_price": 241.92,
-          "confidence": 0.86
+          "confidence": 1.0
         },
         {
           "task_name": "Demolition & Disposal",
           "area_m2": null,
-          "labor": { "hours": 2.0, "hourly_rate": 40.0, "cost": 80.0 },
+          "labor": {
+            "hours": 2.0,
+            "hourly_rate": 40.0,
+            "cost": 80.0
+          },
           "materials": [
-            { "name": "disposal_fee", "qty": 1, "unit_cost": 50.0, "total": 50.0 }
+            {
+              "name": "disposal_fee",
+              "qty": 1,
+              "unit_cost": 50.0,
+              "total": 50.0
+            }
           ],
           "estimated_duration_hours": 2.0,
           "vat_rate": 0.2,
@@ -98,18 +138,18 @@
           "price_ex_vat": 145.6,
           "vat_amount": 29.12,
           "total_price": 174.72,
-          "confidence": 0.86
+          "confidence": 1.0
         }
       ]
     }
   ],
   "summary": {
     "total_labor_cost": 750.0,
-    "total_material_cost": 580.0,
-    "total_vat": 297.92,
-    "total_price": 1787.52,
+    "total_material_cost": 420.0,
+    "total_vat": 262.08,
+    "total_price": 1572.48,
     "estimated_duration_hours": 18.75,
-    "confidence_score": 0.85,
+    "confidence_score": 1.0,
     "suspicious_input": false
   }
 }
