@@ -94,7 +94,7 @@ def load_city_modifiers(path: Path = None) -> Dict[str, float]:
     return _CITY_MOD_CACHE
 
 
-def get_city_multiplier(city: str | None) -> float:
+def get_city_multiplier(city: str) -> float:
     """
     Return multiplier for the given city. If city is None or unknown, return 1.0.
     City lookup is case-insensitive; stored keys are Title-cased.
@@ -106,7 +106,7 @@ def get_city_multiplier(city: str | None) -> float:
     return float(mods.get(key, mods.get("Generic", 1.0)))
 
 
-def get_unit_cost(item_name: str, city: str | None = None) -> float:
+def get_unit_cost(item_name: str, city: str = None) -> float:
     """
     Return per-unit cost for an item, applying the city multiplier.
     If item is not found, raises KeyError.
@@ -120,7 +120,7 @@ def get_unit_cost(item_name: str, city: str | None = None) -> float:
     return round(base * multiplier, 2)
 
 
-def get_material_cost(item_name: str, quantity: float = 1.0, city: str | None = None) -> float:
+def get_material_cost(item_name: str, quantity: float = 1.0, city: str = None) -> float:
     """
     Return total cost for 'quantity' units of item_name for given city.
     """

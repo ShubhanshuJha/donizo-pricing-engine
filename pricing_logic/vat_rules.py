@@ -52,7 +52,7 @@ def load_vat_rates(path: Path = None):
     return _VAT_CACHE
 
 
-def get_vat_rate(task_type: str, location: str | None = None) -> float:
+def get_vat_rate(task_type: str, location: str = None) -> float:
     """
     Return VAT rate as a decimal (e.g., 0.20). Uses keyword matching on task_type.
     If no rule matches, returns default VAT (0.20).
