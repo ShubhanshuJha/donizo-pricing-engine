@@ -30,7 +30,7 @@ This repository was developed as part of the **Donizo test assignment**.
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/<your-username>/donizo-pricing-engine.git
+   git clone https://github.com/ShubhanshuJha/donizo-pricing-engine.git
    cd donizo-pricing-engine
    ```
 2. Create a virtual environment and install dependencies:
